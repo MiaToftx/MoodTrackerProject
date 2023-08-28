@@ -1,0 +1,39 @@
+.stressBtnContainer {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.stressBtn {
+    border: solid !important;
+    border-width: 0.15em !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: medium !important;
+    font-weight: bold !important;
+    flex-basis: 40%;
+    height: 5em;
+}
+
+.stressBtn:hover {
+    border-color: black !important;
+}
+
+#level5 {
+    background-color: #F24C3D;
+}
+
+#level4 {
+    background-color: #F29727;
+}
+
+#level3 {
+    background-color: #F2BE22;
+}
+
+#level2 {
+    background-color: #FBD85D;
+}
+
+#level1 {
+    background-color: #C4D7B2;
+}

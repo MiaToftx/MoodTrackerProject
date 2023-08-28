@@ -1,0 +1,51 @@
+.moodBtnContainer {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.moodBtn {
+    border: solid !important;
+    border-width: 0.15em !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: medium !important;
+    font-weight: bold !important;
+    flex-basis: 40%;
+    height: 5em;
+}
+
+.moodBtn:hover {
+    border-color: black !important;
+}
+
+#excitedBtn {
+    background-color: #F24C3D;
+}
+
+#sadBtn {
+    background-color: #3C6255;
+}
+
+#happyBtn {
+    background-color: #F29727;
+}
+
+#anxiousBtn {
+    background-color: #61876E;
+}
+
+#emptyBtn {
+    background-color: #F2BE22;
+}
+
+#irritableBtn {
+    background-color: #A3BB98;
+}
+
+#neutralBtn {
+    background-color: #C4D7B2;
+}
+
+#angryBtn {
+    background-color: #FBD85D;
+}

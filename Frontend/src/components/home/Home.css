@@ -1,0 +1,135 @@
+.outerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trackerContainer {
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh; /* Set tracker height to full viewport height */
+    left: 2.5%;
+    top: 0;
+    z-index: 1000; /* Ensure the tracker is above the content */
+}
+
+.innerContainer {
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: column;
+    justify-content: right;
+}
+
+#tracker-bar {
+    width: 2em;
+    position: fixed;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+#tracker-bar .point {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFF; /* Color of the points */
+    margin: 10px auto;
+}
+
+#moodContainer {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.moodDisplay {
+    display: flex;
+    flex-basis: 38%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.moodSubmit {
+    margin-top: 3%;
+    display: flex;
+    flex-basis: 45%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#stressContainer {
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stressDisplay {
+    display: flex;
+    flex-basis: 40%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.stressSubmit {
+    margin-top: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-basis: 35%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#oneGoodThingContainer {
+    margin-top: 3%;
+    margin-bottom: 18%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.goodThingsHeader {
+    margin-top: 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.goodThingSubmit {
+    display: flex;
+    flex-basis: 40%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.goodThingsDisplay {
+    display: flex;
+    flex-basis: 40%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#diaryContainer {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
