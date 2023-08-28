@@ -4,6 +4,8 @@
 
 Welcome to MoodTracker, your emotional companion. This app is all about helping you stay connected to your feelings, keep an eye on stress levels, and cherish the little positives that life brings. Think of it as your personal emotion assistant, guiding you toward a better understanding of your emotional well-being.
 
+Try it yourself by following the **Installation Instructions** part of this README.
+
 ## Technologies Used
 
 ### Backend
@@ -12,6 +14,7 @@ Welcome to MoodTracker, your emotional companion. This app is all about helping 
 - **Languages:** Java
 - **Frameworks:** Spring Boot, Spring Framework
 - **Database:** MongoDB Compass, MongoDB Atlas
+- **Other:** Postman
 
 ### Frontend
 
